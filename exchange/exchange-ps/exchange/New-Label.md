@@ -90,10 +90,10 @@ To use this cmdlet in Security & Compliance Center PowerShell, you need to be as
 
 ### Example 1
 ```powershell
-New-Label -DisplayName "My New label" -Name "New Label"
+New-Label -DisplayName "My New label" -Name "New Label" -ToolTip "New Tool Tip"
 ```
 
-This example create a new label named "New Label" with a display name "My New Label".
+This example create a new label named "New Label" with a display name "My New Label" and a relevant ToolTip of "New Tool Tip".
 
 ## PARAMETERS
 
